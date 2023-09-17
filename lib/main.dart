@@ -3,6 +3,13 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:intl/intl.dart';
 
+
+
+
+
+
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -62,7 +69,7 @@ class MapState extends State<Map> {
         children: [
           FlutterMap(
             options: MapOptions(
-                center: const LatLng(51.509364, -0.128928),
+                center: const LatLng(44.3106, -69.7795),
                 zoom: 16,
                 minZoom: 9,
                 onMapReady: () {
